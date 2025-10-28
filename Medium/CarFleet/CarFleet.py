@@ -1,5 +1,5 @@
-class Solution(object):
-    def carFleet(self, target, position, speed):
+
+def carFleet(target, position, speed):
         """
         :type target: int
         :type position: List[int]
