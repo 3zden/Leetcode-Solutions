@@ -14,3 +14,4 @@ class Solution(object):
                 streak = 0
         maxx = max(streak,maxx)
         return maxx
+
