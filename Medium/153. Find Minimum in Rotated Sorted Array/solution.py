@@ -10,7 +10,7 @@ class Solution(object):
         while r > l:
             if nums[poi - 1] > nums[poi]:
                 return nums[poi]
-            elif nums[poi - 1] < nums[poi] :
+            else :
                 if nums[r] < nums[poi]:
                     l = poi
                     poi += max(1,(r - l)//2)
