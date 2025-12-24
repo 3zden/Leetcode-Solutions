@@ -23,5 +23,3 @@ class Solution(object):
                 l = poi
                 poi += max(1,(r-l)//2)
     
-solu = Solution()
-print(solu.firstBadVersion(2126753390,1702766719))
