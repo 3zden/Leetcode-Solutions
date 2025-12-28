@@ -18,4 +18,4 @@ class Solution(object):
             if pr[i] not in di:
                 di[pr[i]] = 1
             else : di[pr[i]] += 1 
-        return out
+        return out 
