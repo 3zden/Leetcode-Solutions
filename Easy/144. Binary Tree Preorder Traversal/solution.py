@@ -20,3 +20,4 @@ class Solution(object):
             if curr.left !=None:
                 stack.append(curr.left)
         return out
+
