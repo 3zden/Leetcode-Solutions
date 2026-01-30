@@ -8,6 +8,7 @@ class Solution:
         h = {}
         inn = set()
         out = []
+        for st in strs:
             dst = ""
             for c in st:
                 dst += chr(ord(c)+1)
