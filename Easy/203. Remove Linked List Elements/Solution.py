@@ -19,4 +19,4 @@ class Solution(object):
         out = None   
         while stack:
             out,out.next = stack.pop(-1), out
-        return out     
+        return out      
